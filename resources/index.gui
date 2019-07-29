@@ -1,0 +1,53 @@
+<svg viewport-fill="black">
+  
+    <!-- QUIT: TOP LEFT -->
+    <use id="btn-tl" href="#combo-button-upper-left" fill="fb-red">
+      <set href="combo-button-icon" attributeName="href" to="x_p.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="x_press_p.png"/>
+    </use>
+    <!-- PLAYPAUSE: TOP RIGHT -->
+    <use id="btn-tr" href="#combo-button-upper-right" fill="fb-lime">
+      <set id="pp-image" href="combo-button-icon" attributeName="href" to="play_p.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="play_press_p.png"/>
+    </use>
+
+    <!-- SKIP: BOTTOM RIGHT -->
+    <use id="btn-br" href="#combo-button-lower-right" fill="fb-lavender">
+      <set href="combo-button-icon" attributeName="href" to="btn_combo_skip_forward_p.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="btn_combo_skip_forward_press_p.png"/>
+    </use>
+  
+    <!-- RESET: BOTTOM LEFT -->
+    <use id="btn-bl" href="#combo-button-lower-left" fill="fb-lavender">
+      <set href="combo-button-icon" attributeName="href" to="btn_combo_reset_p.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="btn_combo_reset_p.png"/>
+    </use>
+  
+    <text id="current1" x="50%" y="5%+10"
+        font-family="System-Regular" fill="white"
+        font-size="20" font-weight="bold"
+        text-anchor="middle" text-length="15"></text>
+  
+    <text id="current2" x="50%" y="5%+28"
+        font-family="System-Regular" fill="white"
+        font-size="20" font-weight="bold"
+        text-anchor="middle" text-length="15"></text>
+    
+  
+  <text id="currentTime" x="50%" y="55%"
+       fill="white"
+      font-size="35" font-weight="bold"
+      text-anchor="middle" text-length="26"></text>
+  <arc id="currentArc" x="20%" y="17%+15" width="60%" height="60%" fill="fb-indigo"
+      arc-width="23" start-angle="0" sweep-angle="360" />
+  
+    <text x="50%" y="81%+20"
+        font-family="System-Regular" fill="white"
+        font-size="21" font-weight="bold"
+        text-anchor="middle">next</text>
+    <text id="next" x="50%" y="90%+15"
+        font-family="System-Regular" fill="white"
+        font-size="20" font-weight="bold"
+        text-anchor="middle" text-length="16"></text>
+
+</svg>
